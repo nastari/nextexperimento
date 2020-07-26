@@ -16,8 +16,10 @@ const Index = () => {
 
   return (
     <>
+    <div style={{ background: 'purple'}}>
       <Player {...videoJsOptions} />
       <PlayerCSS />
+      </div>
     </>
   )
 }
